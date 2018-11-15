@@ -7,12 +7,9 @@ function takeANumber (line, name) {
 }
 
 function newTakeANumber (line) {
-  var something
-  if (line.length > 0) {
-    something = line[line.length - 1]
-  } else {
-    something = 0
-  }
+  var something = 0
+  something = something + 1
+ 
   line.push(something + 1)
   return 'Here is a number'
 }
