@@ -7,7 +7,8 @@ function takeANumber (line, name) {
 }
 
 function newTakeANumber (line) {
-  
+  var something = 1
+  line.push(something)
   return 'Here is a number'
 }
 // var line = []
@@ -25,6 +26,8 @@ function nowServing (line) {
     return nobodyServed
   }
 }
+
+1 2 3 4 5 6 7 8 9 10 
 
 function currentLine (line, name) {
   if (line.length >= 1) {
