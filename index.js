@@ -20,7 +20,7 @@ function currentLine (line, name) {
     var i = 0
     var nameAndLine = [];
     for (i = 0; i < line.length; i++) {
-      nameAndLine.push(' ' + i + 1 + ". " + line[i])
+      nameAndLine.push(' ' + (i + 1) + ". " + line[i])
     }
     return "The line is currently:" + nameAndLine.join()
   } else {
