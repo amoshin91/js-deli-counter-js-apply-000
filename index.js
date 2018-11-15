@@ -6,6 +6,17 @@ function takeANumber (line, name) {
   return message
 }
 
+function newTakeANumber (line) {
+  
+  return 'Here is a number'
+}
+// var line = []
+// newTakeANumber(line)   line is [1]
+// newTakeANumber(line)  line is [1,2]
+// nowServing(line)   line is [2]
+//nowServing(line) line is []
+// newTakeANumber(line) [3, 4, 5 ..]
+
 function nowServing (line) {
   if (line.length >= 1) {
     return `Currently serving ${line.shift()}.`
