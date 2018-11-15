@@ -14,7 +14,7 @@ function newTakeANumber (line) {
   return 'Here is a number'
 }
 
-[1,1,1,1,1]
+[]
 // var line = []
 // newTakeANumber(line)   line is [1]
 // newTakeANumber(line)  line is [1,2]
