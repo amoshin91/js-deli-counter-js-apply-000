@@ -10,7 +10,7 @@ function newTakeANumber (line) {
   var something = 0
   something = something + 1
  
-  line.push(something + 1)
+  line.push(something)
   return 'Here is a number'
 }
 // var line = []
