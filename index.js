@@ -5,9 +5,9 @@ function takeANumber (line, name) {
   var message = "Welcome, " + name + ". You are number " + line.length + " in line."
   return message
 }
-
+ var something = 0
 function newTakeANumber (line) {
-  var something = 0
+ 
   something = something + 1
  
   line.push(something)
