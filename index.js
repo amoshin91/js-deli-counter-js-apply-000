@@ -22,7 +22,7 @@ function currentLine (line, name) {
     for (i = 0; i < line.length; i++) {
       nameAndLine.push(i + 1 + ". " + line[i])
     }
-    return "The line is currently: " + nameAndLine
+    return "The line is currently: ${nameAndLine}"
   } else {
     var emptyLine = "The line is currently empty."
     return emptyLine
